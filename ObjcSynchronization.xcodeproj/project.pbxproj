@@ -15,6 +15,9 @@
 		8981AE9C2273F56E00DDD63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AE9B2273F56E00DDD63B /* main.m */; };
 		8981AEA62273F56E00DDD63B /* ObjcSynchronizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AEA52273F56E00DDD63B /* ObjcSynchronizationTests.m */; };
 		8981AEB12273F56E00DDD63B /* ObjcSynchronizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AEB02273F56E00DDD63B /* ObjcSynchronizationUITests.m */; };
+		8981AEC02273F5C000DDD63B /* ThreadSafeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AEBF2273F5C000DDD63B /* ThreadSafeQueue.m */; };
+		8981AEC32274053E00DDD63B /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AEC22274053E00DDD63B /* Account.m */; };
+		8981AEC622740AB000DDD63B /* ThreadCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AEC522740AB000DDD63B /* ThreadCall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		8981AEAC2273F56E00DDD63B /* ObjcSynchronizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcSynchronizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8981AEB02273F56E00DDD63B /* ObjcSynchronizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcSynchronizationUITests.m; sourceTree = "<group>"; };
 		8981AEB22273F56E00DDD63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8981AEBE2273F5C000DDD63B /* ThreadSafeQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadSafeQueue.h; sourceTree = "<group>"; };
+		8981AEBF2273F5C000DDD63B /* ThreadSafeQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeQueue.m; sourceTree = "<group>"; };
+		8981AEC12274053E00DDD63B /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		8981AEC22274053E00DDD63B /* Account.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		8981AEC422740AB000DDD63B /* ThreadCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadCall.h; sourceTree = "<group>"; };
+		8981AEC522740AB000DDD63B /* ThreadCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadCall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				8981AE972273F56E00DDD63B /* LaunchScreen.storyboard */,
 				8981AE9A2273F56E00DDD63B /* Info.plist */,
 				8981AE9B2273F56E00DDD63B /* main.m */,
+				8981AEBE2273F5C000DDD63B /* ThreadSafeQueue.h */,
+				8981AEBF2273F5C000DDD63B /* ThreadSafeQueue.m */,
+				8981AEC12274053E00DDD63B /* Account.h */,
+				8981AEC22274053E00DDD63B /* Account.m */,
+				8981AEC422740AB000DDD63B /* ThreadCall.h */,
+				8981AEC522740AB000DDD63B /* ThreadCall.m */,
 			);
 			path = ObjcSynchronization;
 			sourceTree = "<group>";
@@ -262,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8981AEC02273F5C000DDD63B /* ThreadSafeQueue.m in Sources */,
+				8981AEC622740AB000DDD63B /* ThreadCall.m in Sources */,
 				8981AE912273F56B00DDD63B /* ViewController.m in Sources */,
 				8981AE9C2273F56E00DDD63B /* main.m in Sources */,
+				8981AEC32274053E00DDD63B /* Account.m in Sources */,
 				8981AE8E2273F56B00DDD63B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
